@@ -1,0 +1,28 @@
+---
+alwaysApply: true
+---
+Use ESM only.
+
+Avoid using `any` as much as possible. Type functions explicitly.
+
+Prefer accepting typed records as function parameters, and type the return value:
+
+BAD:
+
+```
+function foo(a: Param1, b: Param2) { ... }
+```
+
+GOOD:
+
+```
+function foo({a, b}: { a: Param1, b: Param2 }): Result { ... }
+```
+
+Never mute exceptions. At least log them.
+
+Never reexport any definitions.
+
+NEVER use dynamic import()s
+
+ALWAYS prefer properly fully typed solutions.

@@ -1,0 +1,8 @@
+---
+alwaysApply: true
+---
+NEVER leave comments about what you have removed.
+
+When you move something to a new file, DO NOT leave comments about the new location of the definition.
+
+Never add backwards compatibility layers. The codebase is supposed to be always in sync, we can break APIs.
