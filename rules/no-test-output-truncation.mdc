@@ -1,0 +1,4 @@
+---
+alwaysApply: true
+---
+When running tests, do not truncate the test suite outputs. The test suite produces compact outputs already, so you don't need to pipe the test suite command to `head`, `tail`, etc.
