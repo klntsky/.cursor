@@ -26,3 +26,5 @@ Never reexport any definitions.
 NEVER use dynamic import()s
 
 ALWAYS prefer properly fully typed solutions.
+
+Do not use `as` imports unless absolutely needed due to name conflicts.
